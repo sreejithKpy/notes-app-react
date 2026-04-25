@@ -95,6 +95,7 @@ textarea:focus{
     color: black;
     font-size: 3rem;
     font-weight: bold;
+    font-family: 'Comic Sans MS';
 }
 .dark-mode{
     background-color: black;
