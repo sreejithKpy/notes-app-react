@@ -9,21 +9,7 @@ function App() {
   const [notes, setNotes] = useState(() => {
   const savedNotes = localStorage.getItem('react-notes-app-data');
   return savedNotes ? JSON.parse(savedNotes) : [
-    {
-      id: nanoid(),
-      text: "This is my first note!",
-      date: "16/04/2026"
-    },
-    {
-      id: nanoid(),
-      text: "This is my second note!",
-      date: "16/04/2026"
-    },
-    {
-      id: nanoid(),
-      text: "This is my third note!",
-      date: "16/04/2026"
-    }
+    
   ];
 });
 
